@@ -2,7 +2,7 @@
 
 ## BIOINFO M122/M222
 
-### Due: Friday May 22nd, 2019, 11:59 pm
+### Due: Friday May 18th, 2021, 11:59 pm
 
 This programming assignment is designed to expand your understanding of sequencing and the difficulty of mapping insertions and deletions.
 
@@ -23,12 +23,18 @@ Starter code for the project has been pushed to the Github repository at https:/
 
 The starter code provided handles reading the reads and reference genome into Python lists, as well as converting a list of SNPs into the proper output format. You will be responsible for aligning the reads to the reference, and calling SNPs.
 
+Download your practice and for-grade data from:
+10K Length Example Genome (Not for credit): https://studentdownloads.s3-us-west-1.amazonaws.com/practice_W_3.zip
+1-Million Length Example Genome (Not for credit): http://studentdownloads.s3-us-west-1.amazonaws.com/practice_E_1.zip
+HP2A 1-Million Length Genome (For Credit): http://studentdownloads.s3-us-west-1.amazonaws.com/hw2undergrad_E_2.zip
+HP2B 100-Million Length Genome (For Credit): http://studentdownloads.s3-us-west-1.amazonaws.com/hw2grad_M_1.zip
+
 We are providing you with the skeleton for one script:
 1. `basic_hasher.py` takes in a reference genome, a set of reads an output file and an output header and outputs the SNPs and indels called based on the aligned reads.
 
 Running the above scripts with the `-h` option should be self explanatory, but here is an example of running them to create a file that can be submitted on the website for the 10K length genome practice data provided for project 2.
 
-1. Download the 10K practice data from https://cm122.herokuapp.com/h2_data_files into the HP2 folder and unzip it. The commands below assume that you have a folder named practice_E_1 in the HP2 folder. If you download and save things in a different place you'll have to adjust the file paths below.
+1. Download the 10K practice data into the HP2 folder and unzip it. The commands below assume that you have a folder named practice_E_1 in the HP2 folder. If you download and save things in a different place you'll have to adjust the file paths below.
 
 2. Use `basic_hasher.py` to align reads to the genome.
 
