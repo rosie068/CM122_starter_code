@@ -25,8 +25,11 @@ The starter code provided handles reading the reads and reference genome into Py
 
 Download your practice and for-grade data from:
 10K Length Example Genome (Not for credit): https://studentdownloads.s3-us-west-1.amazonaws.com/practice_W_3.zip
+
 1-Million Length Example Genome (Not for credit): http://studentdownloads.s3-us-west-1.amazonaws.com/practice_E_1.zip
+
 HP2A 1-Million Length Genome (For Credit): http://studentdownloads.s3-us-west-1.amazonaws.com/hw2undergrad_E_2.zip
+
 HP2B 100-Million Length Genome (For Credit): http://studentdownloads.s3-us-west-1.amazonaws.com/hw2grad_M_1.zip
 
 We are providing you with the skeleton for one script:
