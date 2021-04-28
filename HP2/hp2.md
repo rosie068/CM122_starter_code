@@ -33,7 +33,7 @@ HP2A 1-Million Length Genome (For Credit): http://studentdownloads.s3-us-west-1.
 HP2B 100-Million Length Genome (For Credit): http://studentdownloads.s3-us-west-1.amazonaws.com/hw2grad_M_1.zip
 
 We are providing you with the skeleton for one script:
-1. `basic_hasher.py` takes in a reference genome, a set of reads an output file and an output header and outputs the SNPs and indels called based on the aligned reads.
+1. `basic_hasher.py` takes in a reference genome, a set of reads, an output file and an output header and outputs the SNPs called based on its produced alignment
 
 Running the above scripts with the `-h` option should be self explanatory, but here is an example of running them to create a file that can be submitted on the website for the 10K length genome practice data provided for project 2.
 
